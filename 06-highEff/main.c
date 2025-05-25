@@ -78,6 +78,7 @@ bool check_result(uint32_t* port_vec, const char* compare_filename){
     for(int i = 0;i < TEST_SIZE;i++){
         fscanf(fp,"%d",&port);
         if(port != port_vec[i]){
+            printf("Error: %d", i);
             fclose(fp);
             return false;
         }
