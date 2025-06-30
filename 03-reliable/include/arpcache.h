@@ -48,5 +48,5 @@ void arpcache_destroy();
 int arpcache_lookup(u32 ip4, u8 mac[]);
 void arpcache_insert(u32 ip4, u8 mac[]);
 void arpcache_append_packet(iface_info_t *iface, u32 ip4, char *packet, int len);
-void *arpcache_sweep(void *arg);
+void *arpcache_sweep(void *arg); 
 #endif

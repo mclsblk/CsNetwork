@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "tcp.h": "c",
+        "tcp_sock.h": "c",
+        "libgen.h": "c",
+        "stdlib.h": "c"
+    }
+}
